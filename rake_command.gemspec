@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["prinum101@gmail.com"]
   gem.description   = "Execute a rake command in a rails script."
   gem.summary       = "Execute a rake command in a rails script."
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/prinum/RakeCommand"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
