@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-RakeCommand.rake('db:migrate')
+RakeCommand.rake('db:migrate')  
 *Default environment is RAILS_ENV
 
 RakeCommand.rake('db:migrate',environment)
