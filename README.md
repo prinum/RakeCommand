@@ -17,12 +17,11 @@ Or install it yourself as:
     $ gem install rake_command
 
 ## Usage
-
-RakeCommand.rake('db:migrate')  
+    RakeCommand.rake('db:migrate')  
+    RakeCommand.rake('db:migrate',environment)  
 *Default environment is RAILS_ENV
 
-RakeCommand.rake('db:migrate',environment)
-
+    
 ## Contributing
 
 1. Fork it
